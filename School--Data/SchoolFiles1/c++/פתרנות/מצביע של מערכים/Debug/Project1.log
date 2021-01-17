@@ -1,0 +1,9 @@
+﻿  Source.c
+C:\Users\abo akfy\source\repos\Project1\Source.c(20,48): error C2078: too many initializers
+C:\Users\abo akfy\source\repos\Project1\Source.c(23,18): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+C:\Users\abo akfy\source\repos\Project1\Source.c(23,18): warning C4024: 'strlen': different types for formal and actual parameter 1
+C:\Users\abo akfy\source\repos\Project1\Source.c(24,25): error C2109: subscript requires array or pointer type
+C:\Users\abo akfy\source\repos\Project1\Source.c(24,10): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\abo akfy\source\repos\Project1\Source.c(24,10): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\abo akfy\source\repos\Project1\Source.c(24,10): message : the missing variadic argument 1 is required by format string '%c'
+C:\Users\abo akfy\source\repos\Project1\Source.c(20,7): error C2078: too many initializers

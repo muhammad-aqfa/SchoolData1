@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\abo akfy\source\repos\רישמה מקושרת מהט\Source.c(257,22): warning C4101: 'new_node': unreferenced local variable
+C:\Users\abo akfy\source\repos\רישמה מקושרת מהט\Source.c(292,49): warning C4101: 'prev': unreferenced local variable
+C:\Users\abo akfy\source\repos\רישמה מקושרת מהט\Source.c(289): warning C4716: 'move_min_max': must return a value
+  רישמה מקושרת מהט.vcxproj -> C:\Users\abo akfy\source\repos\רישמה מקושרת מהט\Debug\רישמה מקושרת מהט.exe

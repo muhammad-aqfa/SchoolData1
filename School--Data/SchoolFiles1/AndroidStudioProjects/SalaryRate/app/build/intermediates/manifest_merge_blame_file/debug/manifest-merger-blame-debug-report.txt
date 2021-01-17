@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.salaryrate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\152d62e1fb95a05f4e62b1b23ec413af\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\152d62e1fb95a05f4e62b1b23ec413af\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\152d62e1fb95a05f4e62b1b23ec413af\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\152d62e1fb95a05f4e62b1b23ec413af\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+13
+14    <application
+14-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:5:5-30:19
+15        android:allowBackup="true"
+15-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:8:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:10:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:11:9-40
+24        <activity android:name="com.example.salaryrate.list_view" />
+24-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:12:9-56
+24-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:12:19-44
+25        <activity android:name="com.example.salaryrate.male_rates" />
+25-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:13:9-48
+25-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:13:19-45
+26        <activity android:name="com.example.salaryrate.salary_rates" />
+26-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:14:9-50
+26-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:14:19-47
+27        <activity android:name="com.example.salaryrate.profile" />
+27-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:15:9-45
+27-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:15:19-42
+28        <activity android:name="com.example.salaryrate.choose_buttons" />
+28-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:16:9-52
+28-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:16:19-49
+29        <activity android:name="com.example.salaryrate.mySalary" />
+29-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:17:9-46
+29-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:17:19-43
+30        <activity
+30-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:18:9-20:59
+31            android:name="com.example.salaryrate.insertEmail"
+31-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:19:13-40
+32            android:theme="@style/AppTheme.NoActionBar" />
+32-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:20:13-56
+33        <activity
+33-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:21:9-29:20
+34            android:name="com.example.salaryrate.UserName"
+34-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:22:13-37
+35            android:theme="@style/AppTheme.NoActionBar" >
+35-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:23:13-56
+36            <intent-filter>
+36-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:24:13-28:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:25:17-69
+37-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:25:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:27:17-77
+39-->C:\Users\abo akfy\AndroidStudioProjects\SalaryRate\app\src\main\AndroidManifest.xml:27:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+43            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+43-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+44            android:excludeFromRecents="true"
+44-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+45            android:exported="true"
+45-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+46            android:launchMode="singleTask"
+46-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+47            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+47-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+49
+50        <service
+50-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+52            android:exported="false" >
+52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+53            <meta-data
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+54                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\4a62b15f789b4d046179e86a602aa4a7\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+56        </service>
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\48e122b3083b9370664516660dc6d447\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\48e122b3083b9370664516660dc6d447\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\48e122b3083b9370664516660dc6d447\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\48e122b3083b9370664516660dc6d447\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+62
+63        <provider
+63-->[com.google.firebase:firebase-common:16.0.3] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\293fc687ed7186349c79397da0a64887\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+64            android:name="com.google.firebase.provider.FirebaseInitProvider"
+64-->[com.google.firebase:firebase-common:16.0.3] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\293fc687ed7186349c79397da0a64887\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+65            android:authorities="com.example.salaryrate.firebaseinitprovider"
+65-->[com.google.firebase:firebase-common:16.0.3] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\293fc687ed7186349c79397da0a64887\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+66            android:exported="false"
+66-->[com.google.firebase:firebase-common:16.0.3] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\293fc687ed7186349c79397da0a64887\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+67            android:initOrder="100" />
+67-->[com.google.firebase:firebase-common:16.0.3] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\293fc687ed7186349c79397da0a64887\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\b5e8e2027ef120ff7d363000af8825e4\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\b5e8e2027ef120ff7d363000af8825e4\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\abo akfy\.gradle\caches\transforms-2\files-2.1\b5e8e2027ef120ff7d363000af8825e4\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+72    </application>
+73
+74</manifest>

@@ -1,0 +1,99 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#012141"
+    tools:context=".choose_buttons"
+    android:orientation="vertical"
+    android:weightSum="20">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="השכר שלי"
+        android:textColor="#EEEEF3"
+        android:textSize="25dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:weightSum="10">
+    <Button
+        android:layout_width="match_parent"
+        android:text="פרופיל"
+        android:id="@+id/profile"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="הגדרות שכר"
+        android:layout_weight="1"
+        android:id="@+id/salayrates"
+        android:fontFamily="sans-serif-black"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="תערפי זכר"
+        android:id="@+id/malerates"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/addshift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="הוספת משמרית"
+                android:textAllCaps="false" />
+
+            <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/exit"
+        android:text="יציאה"
+        android:fontFamily="sans-serif-black"
+        android:textAllCaps="false"
+        android:textColor="#FD0303" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#012141"
+    tools:context=".mySalary"
+    android:weightSum="30"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="פרטי משמרות"
+        android:textColor="#F9F9FC" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="  זמן התחלת משמרית"
+        android:textColor="#F9F9FC"
+        android:textSize="15dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+            android:id="@+id/selectdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CFCFD3"
+            android:text="Select Date"
+        android:layout_marginLeft="315dp"
+            android:textColor="#0C0000"
+            android:textSize="12dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <EditText
+            android:id="@+id/set_date1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D8D8DF"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#000109" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/selecttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CFCFD3"
+            android:layout_marginLeft="315dp"
+            android:text="Select Time"
+            android:textColor="#0C0000"
+            android:textSize="12dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText
+            android:id="@+id/set_time1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CFCFD3"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#000109" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="  זמן סיום משמרית"
+            android:textColor="#FAFAFC"
+            android:textSize="15dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/selectdate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:background="#CFCFD3"
+            android:text="Select Date"
+            android:textColor="#0C0000"
+            android:textSize="12dp" />
+
+    <EditText
+            android:id="@+id/set_date2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#D8D8DF"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#000109" />
+
+        <Button
+            android:id="@+id/selecttime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="10dp"
+            android:background="#CFCFD3"
+            android:text="Select Time"
+            android:textColor="#0C0000"
+            android:textSize="12dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText
+            android:id="@+id/set_time2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CFCFD3"
+            android:fontFamily="sans-serif-black"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#000109" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/mysalary_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:text=" ביטול"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000300"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/mysalary_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:text="שמור"
+            android:layout_marginLeft="208dp"
+            android:textColor="#000300"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

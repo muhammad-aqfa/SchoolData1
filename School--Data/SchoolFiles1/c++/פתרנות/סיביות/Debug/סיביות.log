@@ -1,0 +1,7 @@
+﻿  Source.c
+C:\Users\abo akfy\source\repos\סיביות\Source.c(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\abo akfy\source\repos\סיביות\Source.c(49,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\abo akfy\source\repos\סיביות\Source.c(101,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\abo akfy\source\repos\סיביות\Source.c(41,1): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\abo akfy\source\repos\סיביות\Source.c(110,22): warning C4018: '<': signed/unsigned mismatch
+  סיביות.vcxproj -> C:\Users\abo akfy\source\repos\סיביות\Debug\סיביות.exe

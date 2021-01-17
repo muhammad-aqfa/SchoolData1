@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\abo akfy\source\repos\ריקורסיה\Source.c(141,10): warning C4033: 'func' must return a value
+C:\Users\abo akfy\source\repos\ריקורסיה\Source.c(152): warning C4716: 'func': must return a value
+  ריקורסיה.vcxproj -> C:\Users\abo akfy\source\repos\ריקורסיה\Debug\ריקורסיה.exe

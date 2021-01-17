@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\abo akfy\source\repos\mahat\Source.c(259,26): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\abo akfy\source\repos\mahat\Source.c(241,16): warning C4101: 'tav': unreferenced local variable
+C:\Users\abo akfy\source\repos\mahat\Source.c(240,30): warning C4101: 'j': unreferenced local variable
+  mahat.vcxproj -> C:\Users\abo akfy\source\repos\mahat\Debug\mahat.exe

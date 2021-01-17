@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\abo akfy\source\repos\realloc\Source.c(167,44): warning C4133: '=': incompatible types - from 'int *' to 'char *'
+C:\Users\abo akfy\source\repos\realloc\Source.c(179,16): warning C4133: 'return': incompatible types - from 'char *' to 'int *'
+C:\Users\abo akfy\source\repos\realloc\Source.c(185,39): warning C4133: '=': incompatible types - from 'int *' to 'char *'
+C:\Users\abo akfy\source\repos\realloc\Source.c(186,23): warning C4133: '=': incompatible types - from 'int *' to 'char *'
+  Project2.vcxproj -> C:\Users\abo akfy\source\repos\realloc\Debug\Project2.exe

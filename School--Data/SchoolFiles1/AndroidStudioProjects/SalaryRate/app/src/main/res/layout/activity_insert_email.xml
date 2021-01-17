@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#012141"
+    tools:context=".insertEmail"
+    android:orientation="vertical"
+    android:weightSum="20">
+    <Space
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="השכר שלי"
+        android:textColor="#EEEEF3"
+        android:textSize="25dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="7">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=" intrest Your Email"
+                android:textColor="#F9F9FA"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/UserNameLogin"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#F7F5F5"
+                android:hint="Insert Email"
+                android:paddingLeft="10dp"
+                android:textColor="#0C0404"
+                android:textColorHint="#0C0B0B" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Password"
+                android:textColor="#F5F5FA"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#F9F9FC"
+                android:hint="Enter  Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColor="#070000"
+                android:textColorHint="#070101">
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="insert password"
+                android:textColor="#F2F2F7"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/insert_password"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#F9F9FC"
+                android:hint="Insert Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColor="#070101"
+                android:textColorHint="#00000C">
+
+            </EditText>
+            <Button
+                android:id="@+id/SignUpfirebase"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="50sp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Sign Me Up"
+                android:textAllCaps="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

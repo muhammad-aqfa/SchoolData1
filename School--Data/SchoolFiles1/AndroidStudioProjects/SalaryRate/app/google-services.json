@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "3503941494",
+    "firebase_url": "https://salaryrate-6f5c3.firebaseio.com",
+    "project_id": "salaryrate-6f5c3",
+    "storage_bucket": "salaryrate-6f5c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3503941494:android:75e89ffe69d0721d84bc57",
+        "android_client_info": {
+          "package_name": "com.example.salaryrate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3503941494-62fdr662ced247s56mbs0foo56tltrmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salaryrate",
+            "certificate_hash": "4f69143f87eba3ed4d4b03470e4eb938eb10f7a0"
+          }
+        },
+        {
+          "client_id": "3503941494-hdiiaoon308abu2ac26ofjr67inmn77i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1DkRQDS8_3z6zc7eHN0iQ99DyttsCRKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3503941494-hdiiaoon308abu2ac26ofjr67inmn77i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

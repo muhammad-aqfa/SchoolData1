@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\abo akfy\source\repos\מבנים\Source.c(20,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  מבנים.vcxproj -> C:\Users\abo akfy\source\repos\מבנים\Debug\מבנים.exe
